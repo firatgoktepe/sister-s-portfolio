@@ -1,4 +1,4 @@
-console.log('Calisiyor')
+// console.log('Calisiyor')
 
 let theme = localStorage.getItem('theme')
 
@@ -14,7 +14,7 @@ let themeDots = document.getElementsByClassName('theme-dot')
 for (var i=0; themeDots.length > i; i++){
 	themeDots[i].addEventListener('click', function(){
 		let mode = this.dataset.mode
-		console.log('Secenek Tiklandi:', mode)
+		// console.log('Secenek Tiklandi:', mode)
 		setTheme(mode)
 	})
 }
@@ -38,3 +38,60 @@ function setTheme(mode){
 
 	localStorage.setItem('theme', mode)
 }
+
+
+/* Scroll Reveal Animations */ 
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('.greeting-wrapper',{
+
+	delay: 1000,
+	easing: 'ease-in',
+
+});
+
+sr.reveal('.left-column',{
+    origin: 'left',
+    distance: '10rem',
+    duration: 1500,
+	easing: 'ease-in',
+	
+});
+
+sr.reveal('.right-column',{
+    origin: 'right',
+    distance: '10rem',
+    duration: 1500,
+	easing: 'ease-in',
+	
+});
+
+sr.reveal('.education-card',{
+    origin: 'right',
+    distance: '10rem',
+    duration: 2000,
+    easing: 'ease-in-out',
+});
+
+sr.reveal('.info-card',{
+    origin: 'left',
+    distance: '10rem',
+    duration: 2000,
+    easing: 'ease-in-out',
+});
+
+
+sr.reveal('.contact-card',{
+    origin: 'bottom',
+    distance: '10rem',
+    duration: 1500,
+    easing: 'ease-in'
+});
+
+sr.reveal('.scroll',{
+    origin: 'top',
+    distance: '10rem',
+    duration: 1500,
+    easing: 'ease-in'
+});
