@@ -17,3 +17,15 @@
 
 
 }
+
+.paper {
+	background: #111921
+}
+
+.number {
+	background: #111921
+}
+
+.number:nth-child(1), .number:nth-child(2), .number:nth-child(3), .number:nth-child(4) {
+	background: #111921
+}
