@@ -62,12 +62,12 @@ ul{
 	list-style: none;
 }
 
-h1 { font-size: 56px; margin-top: 1.5rem;}
-h2 { font-size: 36px;}
-h3 { font-size: 28px;}
-h4 { font-size: 24px;}
-h5 { font-size: 20px;}
-h6 { font-size: 16px;}
+h1 { font-size: 3.5rem; margin-top: 1.5rem;}
+h2 { font-size: 2.25rem;}
+h3 { font-size: 1.75rem;}
+h4 { font-size: 1.5rem;}
+h5 { font-size: 1.25rem;}
+h6 { font-size: 1rem;}
 
 
 .container-1{
@@ -88,7 +88,7 @@ h6 { font-size: 16px;}
 /* FIRST SECTION */
 
 .main-container{
-	width: 1200px;
+	width: 75em;
     margin: 0 auto;
     margin-bottom: 2rem;
 }
@@ -332,6 +332,8 @@ section.footer .main-container{
 
 section.footer .main-container img{
 	align-self: center;
+	width: 12.5rem !important;
+	height: 12.5rem !important;
 }
 
 .contact-wrapper {
@@ -475,6 +477,32 @@ section.footer .main-container img{
 
 
 /* MEDIA QUERIES */
+
+@media screen and (min-width: 1500px) and (max-width: 2000px){
+	* {
+		font-size: 24px;
+	}
+	.main-container{
+		width: 95%;
+	}
+
+	.video-card-top {
+		height: 500px;
+	}
+}
+
+@media screen and (min-width: 2001px) and (max-width: 3000px){
+	* {
+		font-size: 30px;
+	}
+	.main-container{
+		width: 90%;
+	}
+
+	.video-card-top {
+		height: 600px;
+	}
+}
 
 @media screen and (max-width: 1200px){
 	.main-container{
