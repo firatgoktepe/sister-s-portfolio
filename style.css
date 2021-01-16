@@ -287,6 +287,10 @@ h6 { font-size: 16px;}
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
+.education-card ul, .info-card ul{
+	padding: 0;
+}
+
 .education-card h3, .education-card ul, .info-card h3, .info-card ul {
     text-align: center;
 }
@@ -313,7 +317,8 @@ h6 { font-size: 16px;}
 
 /* FOURTH SECTION */
 
-div#fsw-watermark {
+
+#fsw-watermark {
     display: none !important;
 }
 
