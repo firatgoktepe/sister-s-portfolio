@@ -265,7 +265,7 @@ h6 { font-size: 1rem;}
   padding: 10px;
   transition: margin 300ms;
 }
-.first:hover img, .second:hover img, .third:hover img {
+.first:hover img, .second:hover img, .third:hover img, .info-card li:hover {
   margin-left: 25px;
 }
 
