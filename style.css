@@ -252,9 +252,7 @@ h6 { font-size: 1rem;}
 
 /* Icon Text */
 
-.icon-text {
-  /*font-size: 3em;*/
-}
+
 .first, .second, .third {
   display: flex;
   align-items: center;
