@@ -187,9 +187,9 @@ h6 { font-size: 1rem;}
 #profile_pic{
 	display: block;
 	margin:0 auto;
-	height: 200px;
-	width: 200px;
-	object-fit: cover; 
+	/* height: 200px; */
+	width: 36%;
+	/* object-fit: cover;  */
 	
 }
 
