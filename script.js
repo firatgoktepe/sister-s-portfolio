@@ -1,5 +1,7 @@
 // console.log('Calisiyor')
 
+// Theme Settings
+
 let theme = localStorage.getItem('theme')
 
 if(theme == null){
