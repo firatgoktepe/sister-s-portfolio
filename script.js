@@ -1,4 +1,3 @@
-// console.log('Calisiyor')
 
 // Theme Settings
 
