@@ -11,6 +11,9 @@ Dilsad Gungor's personal portfolio site
 
 ![Dilsadgungor - iPhone 6-7-8 - 2021-02-01 at 7 41 51 PM](https://user-images.githubusercontent.com/47864126/106899618-a0319200-6706-11eb-9b30-99296156e27b.jpg)
 
+![dilsadgungor netlify app_](https://user-images.githubusercontent.com/47864126/120542155-6ee67b80-c3f3-11eb-92b1-99578fd878aa.png)
+
+
 
 
 
