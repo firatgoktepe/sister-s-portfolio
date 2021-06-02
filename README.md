@@ -1,7 +1,7 @@
 
 # Dilsad Gungor's portfolio website
 
-Dilsad Gungor's personal portfolio site
+Dilsad Gungor's personal portfolio web-site
 
 - Live Link: https://dilsadgungor.netlify.app/
 
